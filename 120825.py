@@ -20,6 +20,6 @@ def solution(my_string, n):
     sum=""
     for i in string:
         sum=sum+i*n
-    
     return sum
+
 print(solution("hello",3))

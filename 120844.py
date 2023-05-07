@@ -41,3 +41,5 @@ def solution(numbers, direction):
     return list(numbers)
 print(solution([1, 2, 3],'right'))
 print(solution([4, 455, 6, 4, -1, 45, 6],'left'))
+import math
+print(math.ceil(-4.5))

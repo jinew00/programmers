@@ -25,9 +25,7 @@
 
 def solution(age):
     age_arr=list(str(age))
-    # num=[0,1,2,3,4,5,6,7,8,9]
     answer=''
-    num=1
     num_pro=['a','b','c','d','e','f','g','h','i','j']
     if len(age_arr)==4:
         answer = num_pro[age//1000]+num_pro[age%1000//100]+num_pro[age%100//10]+num_pro[age%10]
@@ -38,5 +36,5 @@ def solution(age):
     else:
         answer =num_pro[age%10]
     return answer
-
+# replace를 쓰면 됐는데... 난 뭐한거지...?
 print(solution(100))

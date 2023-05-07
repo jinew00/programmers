@@ -32,10 +32,8 @@ def solution(array):
     print(most)
     print(len(most))
     if len(most)==1:
-        # print(most[0][1])
         return most[0][0]
     elif most[0][1]!=most[1][1]:
-        # print(222222222222222)
         return most[0][0]
     else:
         return -1

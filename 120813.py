@@ -17,12 +17,10 @@
 # 15 이하의 홀수가 담긴 배열 [1, 3, 5, 7, 9, 11, 13, 15]를 return합니다.
 
 def solution(n):
-    
     answer=[]
     for a in range(1,n+1):
         if a%2==1:
             answer.append(a)
-            
     return answer
-# solution(15)
+
 print(solution(15))

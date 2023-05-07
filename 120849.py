@@ -8,14 +8,14 @@
 # 입출력 예
 # my_string	result
 # "bus"	"bs"
-# "nice to meet you"	"nc t mt y"
+# "nice to meet you"	'nc t mt y'
 # 입출력 예 설명
 # 입출력 예 #1
 
 # "bus"에서 모음 u를 제거한 "bs"를 return합니다.
 # 입출력 예 #1
 
-# "nice to meet you"에서 모음 i, o, e, u를 모두 제거한 "nc t mt y"를 return합니다.
+# "nice to meet you"에서 모음 i, o, e, u를 모두 제거한 'nc t mt y'를 return합니다.
 
 def solution(my_string):
     

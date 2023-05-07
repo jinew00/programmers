@@ -20,7 +20,6 @@
 
 def solution(array):
     array.sort()
-
     position=len(array)//2
     return array[position]
 
